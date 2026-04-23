@@ -5,7 +5,7 @@
 }
 
 .body{
-    background: url("../img/bg2.jpg");
+    background: url("../img/backgroundImg.jpg");
     min-height: 100vh;
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@
 }
 
 #board{
-    background: linear-gradient(rgb(81, 128, 224),rgb(90, 185, 214));
+    background: linear-gradient(rgb(90, 216, 128),rgb(16, 16, 16));
     width: 90vmin;
     height: 92vmin;
     border: 2px solid black;
@@ -44,8 +44,8 @@
 }
 
 .head{
-    background: linear-gradient(rgb(223, 108, 211) ,rgb(118, 198, 197));
-    border: 2px solid rgb(0, 0, 0);
+    background: linear-gradient(rgba(8, 8, 8, 0.523) ,rgb(13, 14, 14));
+    border: 2px solid rgb(200, 196, 196);
     transform: scale(1.02);
     border-radius: 10px;
 
@@ -53,14 +53,11 @@
 
 }
 .snake{
-    background-color: rgb(2, 0, 128);
+    background-color: rgba(6, 6, 6, 0.571);
     border: .25vmin solid white ;
     border-radius: 12px;
 
 }
 
 .food{
-    background: linear-gradient(rgb(0, 106, 255),purple);
-    border : .25vmin solid black;
-    border-radius:8px ;
-}
+    background-image: url("../img/fruit.png");}
